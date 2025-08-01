@@ -1,0 +1,101 @@
+html, body {
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: var(--primary-1);
+    scroll-behavior: smooth;
+    overflow: hidden;
+    height: 100%;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+ul, li, ol {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+p {
+    margin: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+*:focus {
+    outline: none;
+}
+
+:root {
+    /* Colors */
+    --primary-1: #4F7FAA;
+    --primary-2: #89a9c7;
+    --primary-3: #c3d3e3;
+    --secondary-1: #BF9E69;
+    --secondary-2: #d4be9b;
+    --secondary-3: #eadecd;
+    --tertiary-1: #0B3255;
+    --tertiary-2: #58718c;
+    --tertiary-3: #a9b6c4;
+    --neutral-1: #666;
+    --neutral-2: #969696;
+    --neutral-3: #c9c9c9;
+
+    /* RGB versions for rgba usage */
+    --primary-1-rgb: 79, 127, 170;
+    --primary-2-rgb: 137, 169, 199;
+    --primary-3-rgb: 195, 211, 227;
+    --secondary-1-rgb: 191, 158, 105;
+    --secondary-2-rgb: 212, 190, 155;
+    --secondary-3-rgb: 234, 222, 205;
+    --tertiary-1-rgb: 11, 50, 85;
+    --tertiary-2-rgb: 88, 113, 140;
+    --tertiary-3-rgb: 169, 182, 196;
+    --neutral-1-rgb: 102, 102, 102;
+    --neutral-2-rgb: 150, 150, 150;
+    --neutral-3-rgb: 201, 201, 201;
+
+    /* Spacing - Using rem for better scaling */
+    --spacing-1: 0.5rem;   /* 8px → 0.5rem */
+    --spacing-2: 1rem;     /* 16px → 1rem */
+    --spacing-3: 1.5rem;   /* 24px → 1.5rem */
+    --spacing-4: 2rem;     /* 32px → 2rem */
+    --spacing-5: 2.5rem;   /* 40px → 2.5rem */
+    --spacing-6: 3rem;     /* 48px → 3rem */
+    --spacing-7: 3.5rem;   /* 56px → 3.5rem */
+    --spacing-8: 4rem;     /* 64px → 4rem */
+    --spacing-9: 4.5rem;   /* 72px → 4.5rem */
+
+    /* Gradients */
+    --gradient-1: linear-gradient(to right, var(--primary-1), var(--primary-2));
+    --gradient-2: linear-gradient(to right, var(--primary-2), var(--primary-3));
+    --gradient-3: linear-gradient(to right, var(--primary-3), var(--primary-1));
+    --gradient-4: linear-gradient(to right, var(--primary-1), var(--primary-2));
+    --gradient-5: linear-gradient(to right, var(--primary-2), var(--primary-3));
+    --gradient-6: linear-gradient(to right, var(--primary-3), var(--primary-1));
+
+    /* Typography - Using rem for better accessibility */
+    --heading-1: 1.5rem;   /* 24px → 1.5rem */
+    --heading-2: 1.25rem;  /* 20px → 1.25rem */
+    --heading-3: 1rem;     /* 16px → 1rem */
+    --body-1: 0.875rem;    /* 14px → 0.875rem */
+    --body-2: 0.75rem;     /* 12px → 0.75rem */
+    --body-3: 0.625rem;    /* 10px → 0.625rem */
+    --body-4: 0.5rem;      /* 8px → 0.5rem */
+
+    /* Shadows - Keep px for precise visual effects */
+    --shadow-1: 0 1px 3px rgba(0, 0, 0, 0.1);
+    --shadow-2: 0 1px 3px rgba(0, 0, 0, 0.2);
+
+    /* Borders - Keep px for consistent visual weight */
+    --border-1: 1px solid rgba(var(--secondary-2-rgb), 0.3);
+    --border-2: 2px solid rgba(var(--secondary-2-rgb), 0.3);
+}

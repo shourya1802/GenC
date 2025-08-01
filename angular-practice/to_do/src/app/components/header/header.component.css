@@ -1,0 +1,23 @@
+.header {
+    padding: var(--spacing-2);
+    background-color: var(--primary-1);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+    border-bottom: var(--border-1);
+}
+
+.logo {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: var(--heading-1);
+    font-weight: 600;
+    padding: var(--spacing-1);
+    border-radius: var(--spacing-1);
+    background-color: var(--secondary-2);
+    color: var(--primary-1);
+}
