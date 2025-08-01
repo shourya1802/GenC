@@ -1,0 +1,103 @@
+.button {
+    border: none;
+    border-radius: var(--spacing-1);
+    cursor: pointer;
+    padding: var(--spacing-1);
+    font-family: inherit;
+    color: inherit;
+    transition: background-color 0.3s ease;
+}
+
+.button--full-width {
+    width: 100%;
+}
+
+.button--primary {
+    background-color: var(--primary-1);
+    color: var(--secondary-1);
+    &:hover {
+        background-color: var(--primary-2);
+    }
+}
+
+.button--secondary {
+    background-color: var(--secondary-1);
+    color: var(--primary-1);
+    &:hover {
+        background-color: var(--secondary-2);
+    }
+}
+
+.button--tertiary {
+    background-color: var(--tertiary-1);
+    color: var(--primary-1);
+    &:hover {
+        background-color: var(--tertiary-2);
+    }
+}
+
+.button--neutral {
+    background-color: var(--neutral-1);
+    color: var(--primary-1);
+    &:hover {
+        background-color: var(--neutral-2);
+    }
+}
+
+.button--transparent {
+    background-color: transparent;
+    color: var(--secondary-1);
+    &:hover {
+        color: var(--secondary-2);
+    }
+}
+
+.button--extra-small {
+    padding: calc(var(--spacing-1) * 0.75);
+    font-size: var(--body-4); /* 14px - minimum readable size */
+}
+
+.button--small {
+    padding: var(--spacing-1);
+    font-size: var(--body-3); /* 15px */
+}
+
+.button--medium {
+    padding: var(--spacing-2);
+    font-size: var(--body-2); /* 16px - standard button size */
+}
+
+.button--large {
+    padding: var(--spacing-3);
+    font-size: var(--body-1); /* 18px */
+}
+
+.button--extra-large {
+    padding: var(--spacing-4);
+    font-size: var(--heading-6); /* 16px - heading size for large buttons */
+}
+
+.button--huge {
+    padding: var(--spacing-5);
+    font-size: var(--heading-5); /* 20px - heading size for huge buttons */
+}
+
+.button--thin {
+    font-weight: var(--font-weight-thin);
+}
+
+.button--light {
+    font-weight: var(--font-weight-light);
+}
+
+.button--medium {
+    font-weight: var(--font-weight-medium);
+}
+
+.button--regular {
+    font-weight: var(--font-weight-regular);
+}
+
+.button--bold {
+    font-weight: var(--font-weight-bold);
+}

@@ -2,3 +2,21 @@
     height: 100%;
     width: 100%;
 }
+
+h1 {
+    font-size: var(--heading-1);
+    font-weight: var(--font-weight-bold);
+    color: var(--secondary-1);
+}
+
+h2 {
+    font-size: var(--heading-2);
+    font-weight: var(--font-weight-bold);
+    color: var(--secondary-1);
+}
+
+h2 {
+    font-size: var(--heading-3);
+    font-weight: var(--font-weight-bold);
+    color: var(--secondary-1);
+}

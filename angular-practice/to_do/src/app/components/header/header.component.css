@@ -4,20 +4,20 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    position: fixed;
+    /* position: fixed;
     top: 0;
     left: 0;
-    right: 0;
+    right: 0; */
     z-index: 1000;
-    border-bottom: var(--border-1);
+    border-bottom: var(--border-1-secondary-2);
 }
 
-.logo {
+.header__title {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: var(--heading-1);
+    font-size: var(--heading-5);
     font-weight: 600;
     padding: var(--spacing-1);
     border-radius: var(--spacing-1);
-    background-color: var(--secondary-2);
+    background-color: var(--secondary-1);
     color: var(--primary-1);
 }

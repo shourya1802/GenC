@@ -1,0 +1,86 @@
+.title {
+    font-family: inherit;
+    color: inherit;
+    transition: all 0.3s ease;
+    user-select: none;
+}
+
+.title--selectable {
+    user-select: text;
+}
+
+.title--extra-small {
+    font-size: var(--body-1); /* 18px */
+}
+
+.title--small {
+    font-size: var(--heading-6); /* 16px */
+}
+
+.title--medium {
+    font-size: var(--heading-4); /* 24px */
+}
+
+.title--large {
+    font-size: var(--heading-2); /* 32px */
+}
+
+.title--extra-large {
+    font-size: var(--heading-1); /* 40px */
+}
+
+.title--huge {
+    font-size: var(--heading-1); /* 40px - could be custom larger size */
+}
+
+.title--thin {
+    font-weight: var(--font-weight-thin);
+}
+
+.title--light {
+    font-weight: var(--font-weight-light);
+}
+
+.title--weight-medium {
+    font-weight: var(--font-weight-medium);
+}
+
+.title--regular {
+    font-weight: var(--font-weight-regular);
+}
+
+.title--bold {
+    font-weight: var(--font-weight-bold);
+}
+
+.title--primary {
+    color: var(--primary-1);
+}
+
+.title--secondary {
+    color: var(--secondary-1);
+}
+
+.title--tertiary {
+    color: var(--tertiary-1);
+}
+
+.title--neutral {
+    color: var(--neutral-1);
+}
+
+.title--hoverable.title--primary:hover {
+    color: var(--primary-2);
+}
+
+.title--hoverable.title--secondary:hover {
+    color: var(--secondary-2);
+}
+
+.title--hoverable.title--tertiary:hover {
+    color: var(--tertiary-2);
+}
+
+.title--hoverable.title--neutral:hover {
+    color: var(--neutral-2);
+}
